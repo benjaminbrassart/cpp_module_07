@@ -6,7 +6,7 @@
 #    By: bbrassar <bbrassar@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/04/19 02:22:12 by bbrassar          #+#    #+#              #
-#    Updated: 2022/05/04 19:00:45 by bbrassar         ###   ########.fr        #
+#    Updated: 2022/05/10 16:15:23 by bbrassar         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -21,7 +21,6 @@ CXXFLAGS			+= -Iinclude
 CXXFLAGS			+= -I..
 CXXFLAGS			+= -MP -MMD
 CXXFLAGS			+= -std=c++98
-CXXFLAGS			+= -g3
 
 DIR_SRC				= src
 DIR_OBJ				= obj
